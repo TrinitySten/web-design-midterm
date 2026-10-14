@@ -4,7 +4,12 @@ body {
 }
 
 .sender-column {
+  display:flex;
+  flex-direction: column;
   text-align: right;
+}
+.sender-column img {
+  margin-left: auto;
 }
 
 h1 {
@@ -20,5 +25,9 @@ p,ul,ol,dl,address {
 }
 
 p, li, dd, dt, address {
-  line-height: 1.5;
+  line-height: 1.5em;
+}
+
+.quote-spacing dd {
+  margin-bottom: 1.5em;
 }
